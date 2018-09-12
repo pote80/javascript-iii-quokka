@@ -28,5 +28,11 @@ var athletes = [
 ]
 
 //Filter OUT all athletes with wits 5 or higher
+var notWitty = athletes.filter((athlete)=> athlete.wits<=5)
+notWitty;
 //Filter IN all athletes with a strength higher than 6
+var strongeBoys = athletes.filter((athletes)=>athletes.strength>6)
+strongeBoys;
 //Filter OUT all althletes that don't have Guy in their name
+var notAGuy = athletes.filter((athlete)=>athletes.includes(athlete.name === "Guy"))
+notAGuy

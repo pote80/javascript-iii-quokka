@@ -1,7 +1,11 @@
 var numbers = [3, 6, 9, 12, 15];
-
+    
 //forEach over numbers and add 1 to each number
+numbers.forEach((number,i) =>  {
+   numbers[i] = number+1
+});
 //update the original array
+numbers;
 
 var employees = [
     { name: "aaron", pay: 12 },
